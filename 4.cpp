@@ -1,4 +1,6 @@
 #include <iostream>
+using namespace std;
+
 
 class Number {
 private:
@@ -30,16 +32,16 @@ public:
 
 int main() {
     int n;
-    std::cout << "Enter a number: ";
-    std::cin >> n;
+    cout << "Enter a number: ";
+    cin >> n;
 
     Number number(n);
     Number copy(number);
 
     if (copy.isPrime()) {
-        std::cout << "The number is prime." << std::endl;
+        cout << "The number is prime." << endl;
     } else {
-        std::cout << "The number is not prime." << std::endl;
+        cout << "The number is not prime." << endl;
     }
 
     return 0;
