@@ -36,7 +36,7 @@ int main() {
     string plantType;
     double plantPrice;
 
-    // Read plant information from user
+
     cout << "Enter plant name: ";
     getline(cin, plantName);
 
